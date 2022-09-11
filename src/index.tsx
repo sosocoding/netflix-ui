@@ -1,4 +1,4 @@
-import '../tailwind.css';
+import './tailwind.css';
 
 export * from './components/atoms/Toogle/Toggle';
 export * from './components/atoms/Button/Button';
