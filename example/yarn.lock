@@ -1193,10 +1193,10 @@ msgpackr@^1.5.4:
   optionalDependencies:
     msgpackr-extract "^2.0.2"
 
-netflix-ui@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/netflix-ui/-/netflix-ui-1.0.0.tgz#364112cca7a06df4142691616ac9f20ec4ed21f1"
-  integrity sha512-fB9M7B8l9lBxubtPIr5nD4atjNcd/3ugPgfPIgyb6DkD6v6BVHHCNn4y55D64B5OKrUIgJ4Bj2VLU+wGJCCs2g==
+netflix-ui@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/netflix-ui/-/netflix-ui-1.0.1.tgz#0089f2626fa1ecf485dcbb08f19f96f1e89d1bf1"
+  integrity sha512-0BAyj1EkTiL1FN2erelnF9YRZqkGP8g5TJbijYetwG0Zjl8DpITgrLWk0PD4wCl9/tPFlevpXWD1mp7IksMmOA==
   dependencies:
     "@headlessui/react" "^1.7.0"
 
