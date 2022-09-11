@@ -8,7 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "netflix-ui": "^1.0.0",
+    "netflix-ui": "^1.0.1",
     "react-app-polyfill": "^1.0.0"
   },
   "alias": {
