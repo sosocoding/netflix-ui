@@ -8,19 +8,14 @@ module.exports = {
   rollup(config, options) {
     config.plugins.push(
       postcss({
-        plugins: [
-          autoprefixer(),
-          tailwindcss(),
-          cssnano({
-            preset: 'default',
-          }),
-        ],
-        inject: false,
-        // only write out CSS for the first bundle (avoids pointless extra files):
-        extract: !!options.writeMeta,
-        extract: true,
-        // Or with custom file name
-        extract: path.resolve('dist/styles.css'),
+        config: {
+          path: './postcss.config.js',
+        },
+        extensions: ['.css'],
+        minimize: true,
+        inject: {
+          insertAt: 'top',
+        },
       })
     );
     return config;
