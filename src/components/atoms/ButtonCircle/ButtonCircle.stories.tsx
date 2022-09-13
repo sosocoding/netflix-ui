@@ -1,16 +1,16 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Button, ButtonProps } from './Button';
+import { ButtonCircle, ButtonCircleProps } from './ButtonCircle';
 
 export default {
-  title: 'Atoms/Button',
-  component: Button,
+  title: 'Atoms/ButtonCircle',
+  component: ButtonCircle,
   argTypes: {
     onClick: { action: 'clicked' },
   },
-} as Meta<ButtonProps>;
+} as Meta<ButtonCircleProps>;
 
-const Template: Story<ButtonProps> = args => <Button {...args}>Lecture</Button>;
+const Template: Story<ButtonCircleProps> = args => <ButtonCircle {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
@@ -20,7 +20,7 @@ Primary.args = {
 export const Secondary = Template.bind({});
 Secondary.args = {
   variant: 'secondary',
-  icon: 'InformationCircleIcon',
+  icon: 'HandThumbUpIcon',
   isIconOutlined: true,
 };
 

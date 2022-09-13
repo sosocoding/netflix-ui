@@ -820,9 +820,9 @@ callsites@^3.0.0:
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
 caniuse-lite@^1.0.30001370:
-  version "1.0.30001393"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001393.tgz#1aa161e24fe6af2e2ccda000fc2b94be0b0db356"
-  integrity sha512-N/od11RX+Gsk+1qY/jbPa0R6zJupEa0lxeBG598EbrtblxVCTJsQwbRBm6+V+rxpc5lHKdsXb9RY83cZIPLseA==
+  version "1.0.30001397"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001397.tgz#010d9d56e3b8abcd8df261d0a94b22426271a15f"
+  integrity sha512-SW9N2TbCdLf0eiNDRrrQXx2sOkaakNZbCjgNpPyMJJbiOrU5QzMIrXOVMRM1myBXTD5iTkdrtU/EguCrBocHlA==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -1200,10 +1200,10 @@ msgpackr@^1.5.4:
   optionalDependencies:
     msgpackr-extract "^2.0.2"
 
-netflix-ui@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/netflix-ui/-/netflix-ui-1.0.2.tgz#1c94d0921d0cca7519b26d60cff945face8b7d27"
-  integrity sha512-HNkz8m6bRlCW6Atvba09cG85MM2SWZ8oOAoJ9xElvwjpr+O0ZBVk8Jutkm3iuWulrKv2aJx0yNA/BDJ3JU/b/w==
+netflix-ui@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/netflix-ui/-/netflix-ui-1.0.3.tgz#4f96839d5f1764b585fe3261a7a21953e0ede8aa"
+  integrity sha512-ICt1u39qGwYlpFRFKRB72x1KXsyXegWx5J0E8RvecAFzH4MuYd9SSVQEC+jcagmWB3Rt1MRd+qzpTIbPN2OOhQ==
   dependencies:
     "@headlessui/react" "^1.7.0"
 
@@ -1339,6 +1339,11 @@ posthtml@^0.16.4, posthtml@^0.16.5:
   dependencies:
     posthtml-parser "^0.11.0"
     posthtml-render "^3.0.0"
+
+process@^0.11.10:
+  version "0.11.10"
+  resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+  integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
 promise@^8.0.3:
   version "8.2.0"

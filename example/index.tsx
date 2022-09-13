@@ -2,19 +2,15 @@ import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import { createRoot } from 'react-dom/client';
 
-import { ToggleSwitch } from 'netflix-ui';
-import { Button } from '../src/components/atoms/Button/Button';
+// import { ToggleSwitch, Button } from 'netflix-ui';
+
+// import { Button } from '../src/components/atoms/Button/Button';
+// import { ToggleSwitch } from '../src/components/atoms/Toogle/Toggle';
 
 // import 'netflix-ui/dist/netflix-ui.cjs.development.css';
 
 const App = () => {
-  return (
-    <div>
-      Test
-      <ToggleSwitch enabled onChange={() => {}} />
-      <Button label="myButton" />
-    </div>
-  );
+  return <div>Test</div>;
 };
 
 const rootElement = document.getElementById('root');
